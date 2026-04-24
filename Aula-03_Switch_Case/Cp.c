@@ -47,13 +47,13 @@ while(opcao != 6){
             break;
         case 5:
          printf("Digite o valor de a: "); 
-         scanf("%lf",& a);
+         scanf("%lf", &a);
          printf("Digite o valor de b: "); 
-         scanf("%lf",& b);
+         scanf("%lf", &b);
          printf("Digite o valor de c: ");
-         scanf("%lf",& c);
-         int coeficiente = 2* a; 
-         printf("Derivada: f(x) = %lfx + %lf\n", coeficiente,b);
+         scanf("%lf", &c);
+         double coeficiente = 2.0 * a; 
+         printf("Derivada: f'(x) = %.2fx + %.2f\n", coeficiente, b);
             break;
         case 6:
             break;
